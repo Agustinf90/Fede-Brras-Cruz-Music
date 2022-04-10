@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" >
+    <title>FEDE BRRAS CRUZ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styli.css">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Shalimar&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <header>
+    <!--NAV BAR-->
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-orange">  
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1>FEDE BRRAS CRUZ</h1>
+        <div class ="header-icons">
+            <a href="https://www.instagram.com/f.brrascruz/"><img src="../instagram.svg" class="header-socialMedia"></a>
+            <a href="https://www.instagram.com/f.brrascruz/"><img src="../facebook2.svg" class="header-socialMedia"></a>
+            <a href="https://www.youtube.com/c/FedeBrrasCruz"><img src="../youtube2.svg" class="header-socialMedia3"></a>
+          </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="menu">
+            <li><a href="Html/historiaEstudio.html">HOME</a></li>
+            <li><a href="Html/nosotrosAbogados.html">BIOGRAFIA</a></li>
+            <li><a href="Html/serviciosEstudio.html">GALERIA</a></li>
+            <li><a href="Html/contactoEstudio.html">MEDIA</a></li>
+            <li><a href="Html/contactoEstudio.html">CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item imgCarousel active" style="background-image: url(https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/70727088_937734349939261_5717974868373274624_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFShsNYXzVUfdzBdZw7qgsxM8MWUDvq8qIzwxZQO-ryovAXU68LpPmbat4QebhJpoQ&_nc_ohc=rE_ZM2cnC0sAX9rt8PZ&tn=KEcVSDsmUOfg8RYC&_nc_ht=scontent.faep9-1.fna&oh=00_AT_bBenWV7teIj7icZqnfTzH-C2frmPtSC-Y6v5UZM13Vw&oe=6214AC0A); background-size: cover; height:85vh; background-position: center center;">
+      </div>
+      <div class="carousel-item imgCarousel" style="background-image: url(https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/70980116_937016896677673_8172203418501251072_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeGk0AHJ4-Tg1vSmkQRlGWAxZRdFn_cyRGplF0Wf9zJEagzpbQSwprUcJqYE7_jSBMc&_nc_ohc=SyP9PilHCqYAX_VnrKG&_nc_ht=scontent.faep9-1.fna&oh=00_AT8v7Ao_HMWfu__3rZDkHPmGEXuyMPo8Z2zG9FSvA0eUew&oe=621591CB); background-size: cover; height:85vh; background-position: center center;">
+      </div>
+      <div class="carousel-item imgCarousel" style="background-image: url(https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/45121853_729547110757987_555326124477906944_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeE8ZfTc1M6YPgdb4HSzd-uaw6LQSIQykXnDotBIhDKReQYKeLYWhk_Ptkg041NC3Ag&_nc_ohc=jVTPHgQxJmUAX82EHSW&_nc_ht=scontent.faep9-2.fna&oh=00_AT8011yfxkuCxdZj1_TMCb7rIpecx9s9wxIg8Gee10OxqQ&oe=6217F2C1); background-size: cover; height:85vh; background-position: center center;">
+      </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div id= "form-container">
+  <form action="enviar.php" method="post" id="form">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="text" name="name" class="form-control" id="exampleFormControlInput1">
+      </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email </label>
+        <input type="text" name="mail" class="form-control" id="exampleFormControlInput1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div id="boton-formulario" class="col-md-4">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+    <div id="logo">
+      <img src="../logo.png" alt="">
+      </div>
+  </div>
+  <footer>
+      <div class ="footer-icons">
+      <a href="https://www.instagram.com/f.brrascruz/"><img src="../instagram.svg" class="socialMedia"></a>
+      <a href="https://www.instagram.com/f.brrascruz/"><img src="../facebook2.svg" class="socialMedia"></a>
+      <a href="https://www.youtube.com/c/FedeBrrasCruz"><img src="../youtube2.svg" class="socialMedia3"></a>
+    </div>
+    <div class = "footer-info">
+        <h6>Fede Brras Cruz web site oficial ©</h6>
+        <h6>Sitio Web Diseñado por: Agustín Fernández & Joaquín Mateos / 2021-2022</h6>
+      </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html> 
